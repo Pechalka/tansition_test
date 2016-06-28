@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, #app, .footer__wrapper {
+	height: 100%;
+}
+
+
+.footer__empty {
+	height: 115px;
+}
+
+.footer__content {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.footer {
+	text-align: center;
+	height: 115px;
+	margin-top: -115px;
+	position: relative;
+}
+
+.footer .container {
+	background: #ccc;	
+	height: 115px;
+}

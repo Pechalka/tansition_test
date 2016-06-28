@@ -1,0 +1,44 @@
+
+$primary-color: #333;
+$theme-color: #c2d44e;
+$theme-active-color: #9ba93e;
+$border-main: #595959;
+$border-promo: #c7c7c7;
+$border-items: #e1e1e1;
+
+$color-red: #f16362;
+$link-color: #070707;
+
+$color-white: #fff;
+
+
+//fonts
+
+$font-s: 14px;
+$font-n: 16px;
+$font-x: 20px;
+$font-xl: 26px;
+
+
+$font-text: $font-s;
+$font-h1: $font-xl;
+$font-h2: $font-x;
+
+
+$btn-background: $theme-color;
+$btn-background-active: $theme-active-color;
+$btn-color: $color-white;
+$icon-remove-color: $color-red;
+
+
+
+
+
+
+body {
+
+}
+
+a {
+  color: $link-color;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <title>hourstore</title>
+
+        <% if (htmlWebpackPlugin.options.production) { %>
+            <link rel="stylesheet" href="app.<%=webpack.hash%>.css" media="all">
+        <% } %>
+    </head>
+    <body>
+        <div id="app"></div>
+
+        <% if (!htmlWebpackPlugin.options.production) { %>
+          <script src="http://localhost:5000/webpack-dev-server.js"></script>
+        <% } %>
+
+        <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+        <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+        <% } %>
+    </body>
+</html>
