@@ -45,6 +45,7 @@
     "react-pure-render": "1.0.2",
     "react-redux": "4.4.5",
     "react-router": "2.4.1",
+    "react-router-transition": "0.0.5",
     "react-select": "1.0.0-beta13",
     "react-slider": "0.5.1",
     "redux": "3.5.2",

@@ -1,0 +1,17 @@
+
+.book-item {
+	height: 200px;
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 20px;
+}
+
+.book-item__details {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: inline-block;
+	text-transform: uppercase;
+}

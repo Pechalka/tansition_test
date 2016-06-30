@@ -1,0 +1,23 @@
+@import "~css/_misc.scss";
+
+.details-filter {
+	height: 36px;
+	@include clearfix;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.details-filter__back {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.details-filter__filter {
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: right;
+	border-left: 1px solid #ccc;
+	padding: 10px;
+}
